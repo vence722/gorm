@@ -74,6 +74,7 @@ func (schema Schema) MakeSlice() reflect.Value {
 }
 
 func (schema Schema) LookUpField(name string) *Field {
+	name = strings.ToLower(name)
 	if field, ok := schema.FieldsByDBName[name]; ok {
 		return field
 	}
