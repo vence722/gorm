@@ -1,7 +1,7 @@
 package schema
 
 import (
-	"gorm.io/gorm/clause"
+	"github.com/vence722/gorm/clause"
 )
 
 // ConstraintInterface database constraint interface

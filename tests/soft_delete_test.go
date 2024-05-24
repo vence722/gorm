@@ -8,8 +8,8 @@ import (
 	"testing"
 
 	"github.com/jinzhu/now"
-	"gorm.io/gorm"
-	. "gorm.io/gorm/utils/tests"
+	"github.com/vence722/gorm"
+	. "github.com/vence722/gorm/utils/tests"
 )
 
 func TestSoftDelete(t *testing.T) {

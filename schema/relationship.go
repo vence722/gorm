@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/jinzhu/inflection"
-	"gorm.io/gorm/clause"
+	"github.com/vence722/gorm/clause"
 )
 
 // RelationshipType relationship type

@@ -3,8 +3,8 @@ package tests_test
 import (
 	"testing"
 
-	"gorm.io/gorm"
-	. "gorm.io/gorm/utils/tests"
+	"github.com/vence722/gorm"
+	. "github.com/vence722/gorm/utils/tests"
 )
 
 func TestUpdateHasManyAssociations(t *testing.T) {

@@ -4,10 +4,10 @@ import (
 	"reflect"
 	"strings"
 
-	"gorm.io/gorm"
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/schema"
-	"gorm.io/gorm/utils"
+	"github.com/vence722/gorm"
+	"github.com/vence722/gorm/clause"
+	"github.com/vence722/gorm/schema"
+	"github.com/vence722/gorm/utils"
 )
 
 func SaveBeforeAssociations(create bool) func(db *gorm.DB) {

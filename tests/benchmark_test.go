@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	. "gorm.io/gorm/utils/tests"
+	. "github.com/vence722/gorm/utils/tests"
 )
 
 func BenchmarkCreate(b *testing.B) {

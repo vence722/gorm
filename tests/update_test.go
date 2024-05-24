@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"gorm.io/gorm"
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/utils"
-	. "gorm.io/gorm/utils/tests"
+	"github.com/vence722/gorm"
+	"github.com/vence722/gorm/clause"
+	"github.com/vence722/gorm/utils"
+	. "github.com/vence722/gorm/utils/tests"
 )
 
 func TestUpdate(t *testing.T) {

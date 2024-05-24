@@ -5,11 +5,11 @@ import (
 	"sync"
 	"testing"
 
+	"github.com/vence722/gorm"
+	"github.com/vence722/gorm/schema"
+	"github.com/vence722/gorm/utils/tests"
+	. "github.com/vence722/gorm/utils/tests"
 	"gorm.io/driver/postgres"
-	"gorm.io/gorm"
-	"gorm.io/gorm/schema"
-	"gorm.io/gorm/utils/tests"
-	. "gorm.io/gorm/utils/tests"
 )
 
 type UserWithTable struct {

@@ -1,7 +1,7 @@
 package callbacks
 
 import (
-	"gorm.io/gorm"
+	"github.com/vence722/gorm"
 )
 
 func RowQuery(db *gorm.DB) {
